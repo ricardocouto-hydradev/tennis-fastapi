@@ -1,5 +1,5 @@
 default_language_version:
-  python: python3.11
+  python: python3.10
 repos:
 -   repo: https://github.com/psf/black
     rev: 22.8.0
@@ -16,4 +16,4 @@ repos:
         name: Bandit vulnerability check
         entry: bandit --skip B101,B105,B106,B110,B112,B311,B608
         language: system
-        files: revmab_scrapy/.*\.py$
+        files: .*\.py$
